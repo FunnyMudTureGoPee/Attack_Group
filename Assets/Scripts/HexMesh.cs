@@ -57,7 +57,6 @@ public class HexMesh : MonoBehaviour
 				center + HexMetrics.corners[i],
 				center + HexMetrics.corners[i + 1]
 			);
-
 			AddTriangleColor(cell.color);
 		}
 	}
